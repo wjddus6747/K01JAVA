@@ -9,7 +9,7 @@ abstract class AbsClass1
 	
 	int instanceVar;
 	static int staticVar;
-	void instanceMethod(){}
+	void instanceMethod() {}
 	static void staticMethod(){}
 }
 
@@ -39,8 +39,8 @@ abstract class absClass2
 	abstract void absMethod(int number);
 }
 /*
- * 부모가 가진 추상메소드를 그대로 상속받게 되므로 에러가 나지 
- * 않으려면 해당클래스도 abstract로 선언하거나,
+ * 부모가 가진 추상메소드를 그대로 상속받게 되므로 
+ * 에러가 나지 않으려면 해당클래스도 abstract로 선언하거나,
  * 부모의abstract 메소드를 오버라이딩 처리해야한다
  */
 class absClassChild2 extends absClass2
