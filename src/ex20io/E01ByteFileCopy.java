@@ -15,7 +15,6 @@ import java.io.OutputStream;
  */
 public class E01ByteFileCopy
 {
-
 	/*
 	 IO관련 작업에서는 많은 부분애서 예외처리가 필요하다.
 	 이때 예외를 throws하는것보다 try~catch로 애외처리를 
