@@ -16,7 +16,7 @@ class Increment
 //		num ++;
 //	}
 /*	
-	동기화 방법2 : 동기화 블럭
+	3.동기화 방법2 : 동기화 블럭
 				=> 메소드 내에서 필요한 코드만 블럭으로 지정한다. */
 	public  void increment()
 	{
